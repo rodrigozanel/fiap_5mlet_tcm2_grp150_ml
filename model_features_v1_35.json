@@ -1,0 +1,47 @@
+{
+  "numeric_features": [
+    "longitude",
+    "latitude",
+    "total_rooms",
+    "total_bathrooms",
+    "size",
+    "allow_pets",
+    "allow_smoking",
+    "furnished",
+    "count_private_parking",
+    "student_friendly"
+  ],
+  "categorical_features": [
+    "state",
+    "building_type_txt_id"
+  ],
+  "all_features": [
+    "longitude",
+    "latitude",
+    "total_rooms",
+    "total_bathrooms",
+    "size",
+    "allow_pets",
+    "allow_smoking",
+    "furnished",
+    "count_private_parking",
+    "student_friendly",
+    "state_BC",
+    "state_MB",
+    "state_NB",
+    "state_NL",
+    "state_NS",
+    "state_ON",
+    "state_QC",
+    "state_SK",
+    "building_type_txt_id_house",
+    "building_type_txt_id_lowrise",
+    "building_type_txt_id_townhouse"
+  ],
+  "n_features": 21,
+  "model_version": "1.35",
+  "improvements": "Complete EDA + Removed city one-hot encoding",
+  "test_mae": 232.66202139059303,
+  "test_rmse": 373.6792856076309,
+  "test_r2": 0.8579930190740013
+}
